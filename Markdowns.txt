@@ -1,0 +1,79 @@
+Markdown pode ser utilizado no Git/GitHube em:
+- README.MD 
+- Issues
+- Pull requests
+
+*italic*
+_italic_
+**bold**
+__bold__
+~~tachado~~
+
+# Título - nível 1
+## Título - nível 2
+### Título - nível 3
+
+Para inserir uma linha abaixo do # Título:
+  --- ou
+  ***
+
+Listas numeradas:
+1.
+1.
+1. (ou qq número + pontos)
+
+subitem: espaço à esquerda
+1.
+  1.
+
+Lista com marcadores:
+* items
+  * subitem
+ou
+- item
+  - item
+
+Lista de tarefas:
+- [] escrever após os colchetes
+- [x] tarefa concluída
+
+Imagem: 
+- arrasta a imagem para o rodapé da caixa de texto (dica: evite imagem muito grande; o recomendado é no máx 500px de largura)
+  ![descrição da imagem](url)
+
+Links: 
+[texto](url)
+
+Tabelas: 
+título A | título B | título C
+ item A1 |  item B1 |  item C1  
+ item A2 |  item B2 |  item C2  
+ item A3 |  item B3 |  item C3  
+
+separador | -> "pipe"
+
+Comando:
+coloca entre crases, por exemplo
+  ``document.getElementById``
+
+Programa: 
+três crases antes e depois, exemplo:
+  ```
+  escreve aqui o trecho do programa
+  ```
+ou tira o print do Programa, salva num arquivo e arrasta a Imagem
+
+Emoji
+:nome_do_emoji
+github.com/ikatyang - repositório emojia - clonar
+obs: não funciona no nome da issue. Alternativa: entrar no emojipedia.org e copy/paste
+
+Citações e marcar pessoas:
+@nome_da_pessoa
+
+Reply:
+vai na postagem e clica em ... ao lado do nome da pessoa que postou e cria um quote reply
+Para escrever uma msg e formatar um trecho como se fosse o quote replied, use o sinal de maior
+> trecho reply
+
+Mais informações: arquivo PDF do gustavoguanabara
